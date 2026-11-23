@@ -1,0 +1,2593 @@
+{
+ "produto": "ABC-XYZ + RFV Analytics Framework — aplicação web estática",
+ "versao": "1.0.0-rc.1",
+ "gerado_em": "2026-11-23T14:24:30.071Z",
+ "origem": {
+  "tipo": "hash-da-arvore-de-origem",
+  "id": "3b1638c15e5304ff",
+  "observacao": "o projeto não está sob controle de versão git; commit não disponível"
+ },
+ "base_relativa": "./",
+ "roteamento": "hash (#/<mercado>/<tela>)",
+ "pacotes_de_dados": {
+  "far": {
+   "versao_contrato": "1.0.0",
+   "versao_codigo": "5479120e1493",
+   "gerado_em": "2026-11-23T10:23:14-03:00",
+   "arquivos": 176
+  },
+  "cob": {
+   "versao_contrato": "1.0.0",
+   "versao_codigo": "5479120e1493",
+   "gerado_em": "2026-11-23T10:23:15-03:00",
+   "arquivos": 128
+  },
+  "mkt": {
+   "versao_contrato": "1.0.0",
+   "versao_codigo": "5479120e1493",
+   "gerado_em": "2026-11-23T10:23:21-03:00",
+   "arquivos": 176
+  }
+ },
+ "totais": {
+  "arquivos": 511,
+  "bytes": 44063322
+ },
+ "arquivos": [
+  {
+   "arquivo": ".nojekyll",
+   "bytes": 0,
+   "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+   "arquivo": "assets/index-ByDYsjlz.js",
+   "bytes": 1027748,
+   "sha256": "56cf2d4403fcf72a0511c3702839a6d30f0696e401a74826e67463e1b574303d"
+  },
+  {
+   "arquivo": "assets/index-CtHN1A2i.css",
+   "bytes": 12717,
+   "sha256": "b62da0d5803aa0d20596e356f34a3720dfb9e55765862df2f1e37bdf7a06a05b"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-400-normal-CJDn6rn8.woff2",
+   "bytes": 39660,
+   "sha256": "6b986471df6084ba6f89749100b2731200a722d3de0e00f48e1967f21eb2adc0"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-400-normal-CqVvlrh5.woff",
+   "bytes": 52980,
+   "sha256": "64e42d578c38c07b03e3f579cfa7bd5c5ad1ee7b906dd1190895db3c08af9317"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-500-normal-BIdkeU1p.woff2",
+   "bytes": 39084,
+   "sha256": "f018c9ad67dc6c2ca9743ba407d879a251e778bfb3f1cced9dd59a9214ea0350"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-500-normal-DMPDjHtT.woff",
+   "bytes": 52424,
+   "sha256": "45b9feef4a6a5e902f0fa4af7597b66ad666e7be342c4cd1163f55304f4a3040"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-600-normal-ClASKHrr.woff",
+   "bytes": 52560,
+   "sha256": "226fda066b0e88d5895eb21d574a1fb813977e3c078802b4f43f175fea1ea808"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-600-normal-STEjXBNN.woff2",
+   "bytes": 39292,
+   "sha256": "58dba357cb1e89bf36e83f19227293f35d5d7de91215d0fcf394e705634837b5"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-700-normal-O-jipLrW.woff2",
+   "bytes": 39252,
+   "sha256": "de10eb6f1f452594080f69e1e4925fc68f2d594b4837c70b6c8e6ac0e8384916"
+  },
+  {
+   "arquivo": "assets/poppins-devanagari-700-normal-fHs-vx92.woff",
+   "bytes": 52248,
+   "sha256": "f99df87756a7250f7676df7f69dae9cade4bf75e3e7394d35b7a85efff400b1b"
+  },
+  {
+   "arquivo": "assets/poppins-latin-400-normal-BOb3E3N0.woff",
+   "bytes": 10532,
+   "sha256": "6076b418803564833cde2aece96c51b29927ab0a98dfbe727774d1a6c6e6c445"
+  },
+  {
+   "arquivo": "assets/poppins-latin-400-normal-cpxAROuN.woff2",
+   "bytes": 7884,
+   "sha256": "7d93459d86585bfcdbb7e0376056226adb25821ee54b96236fe2123e9560929f"
+  },
+  {
+   "arquivo": "assets/poppins-latin-500-normal-C8OXljZJ.woff2",
+   "bytes": 7748,
+   "sha256": "cd36de204aca2d5fa263a731f7c20009b5e3d754ba1f1e03c33e93a48f3e7446"
+  },
+  {
+   "arquivo": "assets/poppins-latin-500-normal-DGXqpDMm.woff",
+   "bytes": 10372,
+   "sha256": "abdc91ec7e4438b1e1d7f808d388614789d69037059b74a9d6166d00eb9b8b04"
+  },
+  {
+   "arquivo": "assets/poppins-latin-600-normal-BJdTmd5m.woff",
+   "bytes": 10600,
+   "sha256": "55fffef7b100460605349fa5215eb7dcd6e558e195d08e43eddc64c4b27d43b3"
+  },
+  {
+   "arquivo": "assets/poppins-latin-600-normal-zEkxB9Mr.woff2",
+   "bytes": 8000,
+   "sha256": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149"
+  },
+  {
+   "arquivo": "assets/poppins-latin-700-normal-BVuQR_eA.woff",
+   "bytes": 10432,
+   "sha256": "927ba66258ea405f06205be694080f1126d186633c3c69cb839cfd0cfc5ee8ff"
+  },
+  {
+   "arquivo": "assets/poppins-latin-700-normal-Qrb0O0WB.woff2",
+   "bytes": 7816,
+   "sha256": "9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-400-normal-DaBSavcJ.woff",
+   "bytes": 7460,
+   "sha256": "fd2179b8cd8fa95b866f0d6521c100bacac3b89e90e223125d750a57bef33b5f"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-400-normal-by3JarPu.woff2",
+   "bytes": 5644,
+   "sha256": "0b1fcab42c18b69bcfe9ce4799fcbff5af1621c53ffcfdc4723c6f5ec4ee3ffb"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-500-normal-CK-6C4Hw.woff2",
+   "bytes": 5484,
+   "sha256": "af5fda16a19169e029a132374616728e1bf326d90bef5a552395c5053e21cd0f"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-500-normal-CgAe2rWW.woff",
+   "bytes": 7372,
+   "sha256": "034f61d8dde6851b59d915fafe887869144e05cc85bdb36ec65ca039e351f6cd"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-600-normal-CAhIAdZj.woff2",
+   "bytes": 5524,
+   "sha256": "bb1f2d582e7fba586ab70c91ef062d3becaf78b887654953863521b73665d171"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-600-normal-Df5ffKXP.woff",
+   "bytes": 7432,
+   "sha256": "c90f6a00b43727786577d5e89cdd335b5946ae9325d9d1959e2fce39ecf78caf"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-700-normal-DctTR6Tg.woff",
+   "bytes": 7328,
+   "sha256": "df10ddaff3cb9285dbfadc8800916f0c855ca1b274e6aae73a9aed6bc775248b"
+  },
+  {
+   "arquivo": "assets/poppins-latin-ext-700-normal-cby-RkWa.woff2",
+   "bytes": 5432,
+   "sha256": "ccfd87f69ef00d811da3d06488cec4e79ec99d289cfbcbe4be42031cecae775a"
+  },
+  {
+   "arquivo": "data/cob/cortes.json",
+   "bytes": 353,
+   "sha256": "71546e1c92ac0d422dae6a72b8d7feb40ea2f91783b2cb849840a4f08d6fa742"
+  },
+  {
+   "arquivo": "data/cob/entidades/2023-12-31.parquet",
+   "bytes": 19170,
+   "sha256": "aa393b5382b87502bd2214615016271d11ec9bd7bf9153ab5f4ebfcb25dc1a96"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-01-31.parquet",
+   "bytes": 19114,
+   "sha256": "a81164c4a01d1948cd36ba9a1809811f787282041c92bb1770df1aa59126fe8a"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-02-29.parquet",
+   "bytes": 19095,
+   "sha256": "9b33b53d515914c46f3e8e102ae575b43141a84f358ead31055037232f2ca176"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-03-31.parquet",
+   "bytes": 19083,
+   "sha256": "4ba974d8d7c94ae05a228c959fda4ce26535db5b1ee29bcb649128a6c5657af4"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-04-30.parquet",
+   "bytes": 19063,
+   "sha256": "c7d80791bdd1665a047492192076fb79235518fdba14105acb3ec6304fbe4ce1"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-05-31.parquet",
+   "bytes": 19106,
+   "sha256": "5f8682c3b17e7d8e467686ae91081ec7093c4fbfc026551118a8cc0767545997"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-06-30.parquet",
+   "bytes": 19099,
+   "sha256": "9891ff8b75c026633aef500e329f99fd2e23e8fb3ab95e4b3bff29ec83a73992"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-07-31.parquet",
+   "bytes": 19114,
+   "sha256": "281a0d0754606487b2d4f28119877ca5d24b77959d4defd47bd97c0ff926d121"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-08-31.parquet",
+   "bytes": 19100,
+   "sha256": "dd85e819fda5a27f9d209bf0e3c98cd911be20cebee8e0f076d4201100b99ec7"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-09-30.parquet",
+   "bytes": 19073,
+   "sha256": "fabbde95f0d667377eb4d37fe025e084da063dee3700d94f1d3e0d20dd56a155"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-10-31.parquet",
+   "bytes": 19096,
+   "sha256": "829b3f766e7d50ffa374ac48ff1ce7f5fa031e7fb51fe9afd0ac1657f5cd77ba"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-11-30.parquet",
+   "bytes": 19081,
+   "sha256": "8a2e546c3d741fcd7726265cfc28bfcd1cd72634198825e8729296cb94395763"
+  },
+  {
+   "arquivo": "data/cob/entidades/2024-12-31.parquet",
+   "bytes": 19037,
+   "sha256": "1436494a752e528f98d919dcd55f52261a7502034cd1a2b6d696b74c695810ad"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-01-31.parquet",
+   "bytes": 19072,
+   "sha256": "be88dcd3db0cb051a513c9991c134a4e1bacb6f2be52ac1468151140d6c1f650"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-02-28.parquet",
+   "bytes": 19042,
+   "sha256": "1ab12b87731959e8397a28dbcc848fd7d047f9080eac081eb84535f65c542d41"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-03-31.parquet",
+   "bytes": 19034,
+   "sha256": "2e760ca4157d3f68714daa6b7268a9e26a6ed3dfe9ec25a68402c2a31e7c4f65"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-04-30.parquet",
+   "bytes": 19055,
+   "sha256": "df163bff28e5d74e42162ce840243c86c055b5afc9004db6b2306c0d3915fc98"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-05-31.parquet",
+   "bytes": 19026,
+   "sha256": "26ef0357d277b5beb5f5b53e0f8ce74b2629758bcb72515daac1b1d8041f2e75"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-06-30.parquet",
+   "bytes": 19051,
+   "sha256": "c919103ab543f2be3450fb1bc2d47bacb86384a9a66b67d3e8ff3cb299baec74"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-07-31.parquet",
+   "bytes": 19049,
+   "sha256": "a2eeb25fdd16fa646575626f8b74fb43f5c3407f79309010de599d7954d72f63"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-08-31.parquet",
+   "bytes": 19026,
+   "sha256": "6d54d9135cd4a9802bdb448827ab5d9f92eff1f646d5c7079b0b926d7a236786"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-09-30.parquet",
+   "bytes": 19024,
+   "sha256": "29d460428929d4ff196f613bea4f2143e9f4ca2121ed16d7f7862a8960246199"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-10-31.parquet",
+   "bytes": 19027,
+   "sha256": "95318f8356143c3312d341348523d92d1b2ca48a1ae7d1bf86a7ee6574e85d08"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-11-30.parquet",
+   "bytes": 19028,
+   "sha256": "b378cb34f152cfbf6c329b5da5215737726d6506b9efde446296b6c26b9abd09"
+  },
+  {
+   "arquivo": "data/cob/entidades/2025-12-31.parquet",
+   "bytes": 19050,
+   "sha256": "f7a3a26bbc8e3ce1ec038bcbe4bcd8be8622b5d7e30174fbcabe8701a016ff43"
+  },
+  {
+   "arquivo": "data/cob/manifest.json",
+   "bytes": 21578,
+   "sha256": "047849df8fafea131baabc544e5d6ef6bf3aa30e0ec526c15082f78bc855b268"
+  },
+  {
+   "arquivo": "data/cob/matriz/2023-12-31.json",
+   "bytes": 632,
+   "sha256": "f90af288d490ad93027510d2711e784663859347625b89ad693c7494ee088ede"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-01-31.json",
+   "bytes": 633,
+   "sha256": "51d4cc38715d2a2e3e32128bb7783083963dfffa8fafe6f49bed8451acb4a92b"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-02-29.json",
+   "bytes": 612,
+   "sha256": "6a4edda6b7353dee69125005926c4545e27931e3a4e0452bfe995c6a34a9b6a4"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-03-31.json",
+   "bytes": 621,
+   "sha256": "1e358502aa530ec8fe673db1ed299cbaaddb5e0de34b5b7900973bf41b4f2512"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-04-30.json",
+   "bytes": 623,
+   "sha256": "b7ef0de4754adae56c7215e6c76d5f3c40c7c6718ffd6bb5014526749c0c71d4"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-05-31.json",
+   "bytes": 624,
+   "sha256": "199fb94d5e7282fe0e355afec64384ef1ebd1f82949b436a205477f4e8669288"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-06-30.json",
+   "bytes": 622,
+   "sha256": "94ee878b9947250c3259f53bc1c9a4230d1374ceccca6ec04ba29eae7a236f78"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-07-31.json",
+   "bytes": 623,
+   "sha256": "0d57f78981d40ea8f19542022762fb4eaffff9d1a972a54a846cbf706fd65ff3"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-08-31.json",
+   "bytes": 622,
+   "sha256": "145b010e0e197983d856d781fdf88c92cab090be57524f47a800b56393903b98"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-09-30.json",
+   "bytes": 611,
+   "sha256": "4277813d89dab0b5cb77e18644eb1c7d2fb055b28ac421af1af213ff0c7907a2"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-10-31.json",
+   "bytes": 613,
+   "sha256": "5044dbb4c7102364591b9e25c74747daadbf73b2e8072961246fb35b90ad56db"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-11-30.json",
+   "bytes": 624,
+   "sha256": "81758b6a6080b43641a42bfc546abd9cb410ccb9321300ad65d00855b81e1437"
+  },
+  {
+   "arquivo": "data/cob/matriz/2024-12-31.json",
+   "bytes": 621,
+   "sha256": "50b0a64dca9849eb3e86e875a77ce4fc7f3a72ed6fca080634baf4c74df04083"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-01-31.json",
+   "bytes": 621,
+   "sha256": "0de82db543e30ec5146b7745c05470dba82469bf7ad7975d333171454b808fdd"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-02-28.json",
+   "bytes": 622,
+   "sha256": "65a23913027e7e1eb68788705ad4496063df28392b3097e257e0b2713d917d50"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-03-31.json",
+   "bytes": 617,
+   "sha256": "43c756b4f9dac1cd214b46913c09720fb9a3f5792482a28665a9cb5319fa666c"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-04-30.json",
+   "bytes": 624,
+   "sha256": "9f9dc1e02da30b83ab31479ed8f7f11ca69afee817f664cf46ef9c7388b8e6bd"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-05-31.json",
+   "bytes": 609,
+   "sha256": "b995d5143d5d4e3bf03fd0ee81ba2ea432a83b2bd3092403bf80b28476cfc80f"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-06-30.json",
+   "bytes": 620,
+   "sha256": "f4284519a4dd7d4daffaf13f43586ae7e21fc5e8b86c7438041feafb0eb8c27c"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-07-31.json",
+   "bytes": 613,
+   "sha256": "edc22a5f0db8ae7e838e792b8dc430a020717d2e98637280e7dccae25f03e1b8"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-08-31.json",
+   "bytes": 608,
+   "sha256": "69890deaf23845240b008d2d2ed0344e464a0450feda43f7c10585d3c6992d1a"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-09-30.json",
+   "bytes": 612,
+   "sha256": "7d8fa3f23152daa10824b6e970e2a68938acfee8c8eeebad7928d6c3dfe1bebb"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-10-31.json",
+   "bytes": 612,
+   "sha256": "d589439fd5b5b55891ba32f26097128f9f4a3193f53cb3c2d55d882ac0f2ee39"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-11-30.json",
+   "bytes": 621,
+   "sha256": "98a1fc2f43b8c5f307becd45739eb98fafe0ea8479bfe53ff65e3f1e79542662"
+  },
+  {
+   "arquivo": "data/cob/matriz/2025-12-31.json",
+   "bytes": 623,
+   "sha256": "bfa85c9326edf69d344df9f543a5bb282662a78f0ea3910ea8bc49816547ff71"
+  },
+  {
+   "arquivo": "data/cob/migracao/2023-12-31.json",
+   "bytes": 1084,
+   "sha256": "9983ceee5842ccc8a4aa0be8d85e85e3fa5a4c874d6e0edeac2c05f3ccff7df4"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-01-31.json",
+   "bytes": 1269,
+   "sha256": "9b7c62d9d0f1c8af2da40517a77dee218bdd8c3c30be7a0461d29a9bf863d34c"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-02-29.json",
+   "bytes": 1130,
+   "sha256": "fc5d509f5b95b9ac0bd8b499d64b5e5dfa799e628979165160decd9ee08f3bf6"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-03-31.json",
+   "bytes": 1171,
+   "sha256": "a76dcb639e6da3f8e70716d00752b085c41594e493cd51954470f4543269c39e"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-04-30.json",
+   "bytes": 1172,
+   "sha256": "967e79da308a5afadbe7802c3214e3c391602861aa1e38e8d57d15c0dc9684c8"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-05-31.json",
+   "bytes": 1113,
+   "sha256": "4bb338f669a1ae6fef19a4fd2919b7dfe935e55e8d823992b9cdbeca0348779f"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-06-30.json",
+   "bytes": 1114,
+   "sha256": "71d8a46a24d09ce92300c4c6bb5087766c219f9ae540550c3f7cd29bbbba078f"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-07-31.json",
+   "bytes": 1028,
+   "sha256": "1e810e4a147c847f0488ff561470424c2d27e42e0426900898559a410bd38de4"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-08-31.json",
+   "bytes": 1027,
+   "sha256": "5e38ec24183e27f0b8ebcc69f18651507e2dae98423ba31fa8fae1b5df745a75"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-09-30.json",
+   "bytes": 1189,
+   "sha256": "f02c4c11ad0d9b63870acd952a4527c98a957574d518b2c3452292950f5f8ee6"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-10-31.json",
+   "bytes": 1159,
+   "sha256": "033c53b6d333d8d33da7b754ac4ad5b514a11c0c44862882cf47ef211b371c70"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-11-30.json",
+   "bytes": 1228,
+   "sha256": "a794bda4d30a370c35578de49ff6ba6eb3fcee9fda51da3059899e489cebe1cd"
+  },
+  {
+   "arquivo": "data/cob/migracao/2024-12-31.json",
+   "bytes": 1549,
+   "sha256": "ee7a8eac2b3c427cacd3ab4b4c54b9d954d928d0f7e43b1a2b553cf131c1f5bc"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-01-31.json",
+   "bytes": 1576,
+   "sha256": "33f6db9ff4bd388554e634255e3f3eeab753af8b630deff94b3d25acefca52dd"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-02-28.json",
+   "bytes": 1575,
+   "sha256": "ece48bc66bd94e925a92b02ac541f65bfa553f71fd3b7165ebea3497bc4969a1"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-03-31.json",
+   "bytes": 1666,
+   "sha256": "3e4a8155053da04c83dbca5f4b0b5e9feeca70c0167e9d18838df1aca073aeeb"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-04-30.json",
+   "bytes": 1459,
+   "sha256": "600487274509e504302f7d8b7ef991fc96f60531486e10fc444b37af64b5452b"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-05-31.json",
+   "bytes": 1313,
+   "sha256": "527b61229144379468a26f17d1266455a3929f8988f2bf820ad8661fc05ea90f"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-06-30.json",
+   "bytes": 1518,
+   "sha256": "ef9692c6586b0317f266123714087239a7187e39315a33702af4da87f0126fa9"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-07-31.json",
+   "bytes": 1482,
+   "sha256": "43812a8695c7d8e3521547c4525403dfb97aa69f558b52d593d6fbdd1006efe8"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-08-31.json",
+   "bytes": 1283,
+   "sha256": "f52671bf6033aa13c7ab804ba2af5f8bbf29b164f0a0727f0f30044e8ad4ab15"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-09-30.json",
+   "bytes": 1574,
+   "sha256": "12d1322b298902f7427c6c7ab91193a32fb1b5a7c13ae871909c27d0455bce6c"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-10-31.json",
+   "bytes": 1283,
+   "sha256": "4785265f82cdcafa958a33bdc9c58a470a9f3d32dd7bbaac7a24f27d8d58b50d"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-11-30.json",
+   "bytes": 1634,
+   "sha256": "d5da841258cdcdb519313852d294ff58a3c75e91bea9dfead0b7d0629579aa2a"
+  },
+  {
+   "arquivo": "data/cob/migracao/2025-12-31.json",
+   "bytes": 1459,
+   "sha256": "046aed1d617c42bf0cf35659196c4987a7fa25eab402f439496b21219b3cd37f"
+  },
+  {
+   "arquivo": "data/cob/pareto/2023-12-31.json",
+   "bytes": 5305,
+   "sha256": "aa8f09589d34206107f0534cc795623fd8a9cb06098f55da484812b95b3fa039"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-01-31.json",
+   "bytes": 5309,
+   "sha256": "4d04a606b8924ffd038026ab72a3ffd37b2b2b354a9b14e10884dd83c37faceb"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-02-29.json",
+   "bytes": 5303,
+   "sha256": "fdbb81f3ccdba7ca945f6386cf224db307bb7995286b0c3b863486767abf710d"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-03-31.json",
+   "bytes": 5311,
+   "sha256": "e66f069fd498ebcc7b20052b8ae55a6baf01d6d071415f70143f633423107450"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-04-30.json",
+   "bytes": 5301,
+   "sha256": "6417ffce5279d033dffa4eb67c08f4c8f8a50e3cd996f4a099333cb2be07ecfc"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-05-31.json",
+   "bytes": 5309,
+   "sha256": "f9441a5c044cfe8c1d2ac0bbc245c549ed16133c4e3fca00c95a384050df085f"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-06-30.json",
+   "bytes": 5304,
+   "sha256": "fd76e147175fc0277d737c86748e45cb31ad3984e0b0db29e631671e43c2f5a2"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-07-31.json",
+   "bytes": 5313,
+   "sha256": "a964ba395f40da90354e85c7bd1c46dfe06ad91c71137cbdd2b8f9e778ae7a84"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-08-31.json",
+   "bytes": 5311,
+   "sha256": "56135d4297b168ebe456b7c325fc7d8bc16159d2a3f2787c556ae9e00b267377"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-09-30.json",
+   "bytes": 5302,
+   "sha256": "5ab4b6b7c7a7cf69b74f0d9800936dece6e64ce71b27312172e9809e417364ef"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-10-31.json",
+   "bytes": 5314,
+   "sha256": "32511254d2d7f7623537ba004ac3aef918efb814e46f427ef464b4316f5300a0"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-11-30.json",
+   "bytes": 5308,
+   "sha256": "a07e0e6e1c69d573042c168e6a57e2d095f901cf8216298d6a92e80d6e9a530e"
+  },
+  {
+   "arquivo": "data/cob/pareto/2024-12-31.json",
+   "bytes": 5309,
+   "sha256": "8ed8944eeafbef148f32f51c97b2d0236f5d67637468d267f32f852252aeca38"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-01-31.json",
+   "bytes": 5311,
+   "sha256": "b4897e8e143a42cc6d9ea67a17242492973d0b4644d989172504a2314d7f751d"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-02-28.json",
+   "bytes": 5305,
+   "sha256": "9e865c874dcdf64b91d34f7be3a9573bdc883d3d20814cc7075fa214b6bf181e"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-03-31.json",
+   "bytes": 5312,
+   "sha256": "337e20bdbb7e1d50d348bcdd9d7c305faaca9e20e4b1c428ef56933ee5d88eec"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-04-30.json",
+   "bytes": 5299,
+   "sha256": "1b480877610e1b370cfea6f560adfdba1417b036e6d32a62ffca70db623da3bb"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-05-31.json",
+   "bytes": 5306,
+   "sha256": "3d8b7fdfc8e39245d198a69a5042439bbd95418c7d5df1009d49c052a69c46e7"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-06-30.json",
+   "bytes": 5310,
+   "sha256": "77238eb8eea2392b1f0b2e30d89a7a64f4f69e74168a8bd4ea509c36e4eee89e"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-07-31.json",
+   "bytes": 5313,
+   "sha256": "762b08af914aee4a065344f5b6ca011199b28b95cd894ea59c6b6752a3b6366c"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-08-31.json",
+   "bytes": 5306,
+   "sha256": "39c65804f23a70ba499a29326a9860e41d80e5a21067045029b6916eb8228d19"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-09-30.json",
+   "bytes": 5311,
+   "sha256": "b22d8b61e9fa4401748bf6ab56b416336b6054aefd4c29269a5556a8c3882d43"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-10-31.json",
+   "bytes": 5312,
+   "sha256": "d41d3241f2fb9b9da2e5a48844502d1719bd24d90873c048cd2db8d0bec386a1"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-11-30.json",
+   "bytes": 5309,
+   "sha256": "6cb305cd065f4b5cdf80200f2420f77637c87673bd27a30986e9401eb44febc2"
+  },
+  {
+   "arquivo": "data/cob/pareto/2025-12-31.json",
+   "bytes": 5303,
+   "sha256": "8e49dca90d21434b18e0bad0fbf1428782c3d232943792b9d4c98c3ca8dd6b56"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2023-12-31.json",
+   "bytes": 849,
+   "sha256": "6f1ab1be0751f5cf3b1280c4de38ecee9584764ac10eaaa85ba8074c3669e4d6"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-01-31.json",
+   "bytes": 849,
+   "sha256": "62e7ebe8bd7d41eb0dc6c3037d125b7e286a9e1f07f23691086bad7fd95c78ad"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-02-29.json",
+   "bytes": 844,
+   "sha256": "1734c48eb9aad025efff474477207b710df1ff79fb65e94bcccc2c848699bfc8"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-03-31.json",
+   "bytes": 844,
+   "sha256": "670e7d7a277e7d1859a4803f44a0e8d8686a129cad1424962dffe7764d56f35c"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-04-30.json",
+   "bytes": 846,
+   "sha256": "af74fd48c1cc5856a2953b032369794a7a49ed3ee9d2ac1f1fb4e9b77e0f0982"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-05-31.json",
+   "bytes": 844,
+   "sha256": "420374e86b85f366610036a20184dcce110ace00edf9bb3e4c5ab6123199cfc3"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-06-30.json",
+   "bytes": 844,
+   "sha256": "a8cc8c3a0d299af5759fecee20e8f0fb831b767600fb311efbcc78223f79518c"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-07-31.json",
+   "bytes": 849,
+   "sha256": "eebff1e2e2b0e8da0fcb98a9c9eb08b516412f47c62936f2c76100bc2432408a"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-08-31.json",
+   "bytes": 844,
+   "sha256": "5a3baef16ad3975645d7682df507579fffede2a51e0fca6f71772d35204c8db1"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-09-30.json",
+   "bytes": 849,
+   "sha256": "95f74275275d66533e40d908d8a1b3108de8a4d6888818b50527f2b4e91c0b08"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-10-31.json",
+   "bytes": 849,
+   "sha256": "5733001fbfa3c62c43e3f55519c9d793866686be059e45c7318992b2c893c1b4"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-11-30.json",
+   "bytes": 849,
+   "sha256": "235119c4839eb4d174995cf10b4bd1b66777439e182fd0a11d4ae4e9918b4edf"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2024-12-31.json",
+   "bytes": 849,
+   "sha256": "3b388f7ee6c9d84dcfac469ee9af47ad4b79f1aea1940768c521e6cea16f8ec1"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-01-31.json",
+   "bytes": 849,
+   "sha256": "71a90a6df084793b0d3e7ac4d8ad77d90ff3d6ecf8d5205654edbfe4e85fa993"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-02-28.json",
+   "bytes": 849,
+   "sha256": "9956fa2195577a71c80b2995f1825118627930fa5d6caacd7bcc343350c800db"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-03-31.json",
+   "bytes": 841,
+   "sha256": "223b12d79f8cf21d54eb91e42dbd4ec779aaf734ff9f284df755f4d4171df951"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-04-30.json",
+   "bytes": 849,
+   "sha256": "34d62f8577d5af13b6dcbe5af6a215a1fe70a565311689bac0ec2677c55aef44"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-05-31.json",
+   "bytes": 849,
+   "sha256": "d65f429c43a54644c401b2953ca266fe5bdc2bf0fb35ceba09ee6af7aa246018"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-06-30.json",
+   "bytes": 846,
+   "sha256": "0ab3e5e897f632df117bbecc494e884800a143ba1f5cadd92a8866ec6e00617b"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-07-31.json",
+   "bytes": 849,
+   "sha256": "68a455316990d71a98546f221dc1399e310e069b7f3be3a8f530488e88f6b99b"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-08-31.json",
+   "bytes": 844,
+   "sha256": "a3711100f7d932f65e2255df974bf061d576243fc6af92f9cc4a2e8c92896050"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-09-30.json",
+   "bytes": 844,
+   "sha256": "6e98724cce0d5ced8bb3026a1fe60373e62ce83a7e55011cb2c43f002e539219"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-10-31.json",
+   "bytes": 849,
+   "sha256": "d42809a3de78eb5f49e8a8dde1367f7a4a8a9da465a9d858a7434fb87c56885c"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-11-30.json",
+   "bytes": 849,
+   "sha256": "1f12190a1bd772eb3781a69aba4b8875aa2e301c1b54815eb69589a26f0235a7"
+  },
+  {
+   "arquivo": "data/cob/reconciliacao/2025-12-31.json",
+   "bytes": 849,
+   "sha256": "ae4b81afa345ec502ea5b265e96aeb6b3888c2dca1821a84bd32f34b019cd858"
+  },
+  {
+   "arquivo": "data/cob/rfv/estatico.parquet",
+   "bytes": 638977,
+   "sha256": "d8d0a8d526a731631801825fb044e621e55a9410eec830ff1d2587e71fbaf473"
+  },
+  {
+   "arquivo": "data/cob/rfv_resumo/2025-12-31.json",
+   "bytes": 609,
+   "sha256": "667f8c3c15f4d00b236ea821a76935ed1d494b5150635b0e76071dfe5925db54"
+  },
+  {
+   "arquivo": "data/far/cortes.json",
+   "bytes": 353,
+   "sha256": "cc7aee2c26823c2d18f81d056a1bde40b5f7ecf6b250327ec1bdd2997b5d5b17"
+  },
+  {
+   "arquivo": "data/far/entidades/2023-12-31.parquet",
+   "bytes": 98284,
+   "sha256": "b0f74679888968d44c5af1e292b6c2106c7ae24beb5aae62cece69370ebb31b4"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-01-31.parquet",
+   "bytes": 99611,
+   "sha256": "c4bf4b54b4588edae035cc9a70cb8762b09bb29b246af255fc9c6b9ddf2b4c0f"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-02-29.parquet",
+   "bytes": 99856,
+   "sha256": "82fd687229040c2e1514431213329e98759d4361c3a463e01da5adb60177331b"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-03-31.parquet",
+   "bytes": 99782,
+   "sha256": "caa6fd2916dcca1d725f66fda9bb40a03ef0cc6f73d2caebb72253acd22b701a"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-04-30.parquet",
+   "bytes": 99725,
+   "sha256": "bd004ef34ea2eab38001bc3be007016e8f4ad5ff0d978e4195621525699e59b8"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-05-31.parquet",
+   "bytes": 99561,
+   "sha256": "de4919d608f8299fee49c02fd19caef888d61b0b40f4ef6b6b1abd2666fff47b"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-06-30.parquet",
+   "bytes": 99804,
+   "sha256": "725e08f6b32a2a40e673eb1bec6ca209764a9dcba2730059649a8b8eb1f6f731"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-07-31.parquet",
+   "bytes": 100128,
+   "sha256": "356932738bdcc1ae174f64f2936163fc4b68420d32d74aa6132882457096222a"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-08-31.parquet",
+   "bytes": 99827,
+   "sha256": "a2e2b18c802b8240d4f8870ba23f1b64415c50ddbc51f4c4f8b76354de62286d"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-09-30.parquet",
+   "bytes": 100035,
+   "sha256": "9966e66f10bbec2ee27a2556771d18dc9d8bfbd56c859689b08a72eeb9c6db84"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-10-31.parquet",
+   "bytes": 100186,
+   "sha256": "3b433f6f33af92e45c43cd34fd44f694d096f79b3fa74a67b7824f4d80dce3df"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-11-30.parquet",
+   "bytes": 99667,
+   "sha256": "e298e89e7115bc0e9892b777ea7b9e05ab724d8645ac411fad8b5742aa285ca7"
+  },
+  {
+   "arquivo": "data/far/entidades/2024-12-31.parquet",
+   "bytes": 101511,
+   "sha256": "465f5f41b76deaf25659cd2e4145f9dd346aa7176418642cb9f7816d5fcf4dee"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-01-31.parquet",
+   "bytes": 101595,
+   "sha256": "e3386995609420626a7f05cd731148f7e211a09bb2790e3950e0c62545443c43"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-02-28.parquet",
+   "bytes": 101342,
+   "sha256": "5163c7056ccd3f4e351b64082e62de30324bf006d7ec23e6ce3fd873419e1c67"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-03-31.parquet",
+   "bytes": 101392,
+   "sha256": "9c01f31e16a345b0667f3a28323791795f14cfdb897f807cef965f68e086126e"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-04-30.parquet",
+   "bytes": 101374,
+   "sha256": "64443936e606db3f08a5b322922823a0ab4834c761d6500d3c701a4ed653bc09"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-05-31.parquet",
+   "bytes": 101502,
+   "sha256": "b9a592ea271c3ff842428b6697c5c9bb214b94b1fd5812f4ffd0176c210ff59a"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-06-30.parquet",
+   "bytes": 101345,
+   "sha256": "6f35044ab2e38072f830b28c146145cf958e385c8fccf94d1b842d9e0d161926"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-07-31.parquet",
+   "bytes": 101528,
+   "sha256": "2c3fc2b189161ab0fda66f77475bb269aaec2e47267deae407166703897dc4d7"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-08-31.parquet",
+   "bytes": 101387,
+   "sha256": "4a5d3da878d0381c38bbc193abe44b3758f519c323c32f3096d0ce07d9c91d4c"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-09-30.parquet",
+   "bytes": 101630,
+   "sha256": "9e0d6dac845bfb6c4e5f52db2c4bfb757c2297cff94b38a9722feb9d9a78bcd4"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-10-31.parquet",
+   "bytes": 101495,
+   "sha256": "ea2faac7aebd7d6224b4cf26f4da630bbfed6944f7c4100b39df4539d8ccf876"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-11-30.parquet",
+   "bytes": 101615,
+   "sha256": "1c7c4204585ad99e1588081dfc1851d6bd24ef6207ac50248a12cfe09721db44"
+  },
+  {
+   "arquivo": "data/far/entidades/2025-12-31.parquet",
+   "bytes": 101630,
+   "sha256": "3121e7835864addaed24852abf21706c8bd435266e0f21543806be5d186d1115"
+  },
+  {
+   "arquivo": "data/far/manifest.json",
+   "bytes": 28539,
+   "sha256": "ee730e71460a70576e798e6a114f4e26cab30045fde247b8f8639f469601f6ff"
+  },
+  {
+   "arquivo": "data/far/matriz/2023-12-31.json",
+   "bytes": 617,
+   "sha256": "a7b41f29fa2c904b9314177c93024065c86153f4052e8d676491bf9cfbbe92aa"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-01-31.json",
+   "bytes": 621,
+   "sha256": "c940f7591ca1ea38d9bf54280f9052657dffbd6b1bedcfceea257a7628350c6d"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-02-29.json",
+   "bytes": 619,
+   "sha256": "ab9414160da0c72d538d9979bbe2a738c4af157e430a8ecca92508d8a6c345ad"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-03-31.json",
+   "bytes": 620,
+   "sha256": "a80365d44f4ca57cb4ba32197865acbf270138efc095c6bbbd4ddbd8e26c2619"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-04-30.json",
+   "bytes": 619,
+   "sha256": "83a4875b0fce9102de183d4d040a9775074f43b0b543b094cdb62eb2a7fdf6c8"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-05-31.json",
+   "bytes": 619,
+   "sha256": "bb707757100757e7bdfe5238651f39e1a913c1ab334d350c7c8282593fd94980"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-06-30.json",
+   "bytes": 620,
+   "sha256": "ee17472bab3dc6cf4659758a4d60778f5de171da3b61e782e04e7f1dd47d1d05"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-07-31.json",
+   "bytes": 622,
+   "sha256": "0618a68da2c7ea1d301ce9179d3628dd60ce40ffafeedb972ebe1205e28bc99f"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-08-31.json",
+   "bytes": 618,
+   "sha256": "f3c17a976a4e17c20b1cbee2732b8ba2b0c9f9b424d02343c1eb61800020bb7c"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-09-30.json",
+   "bytes": 622,
+   "sha256": "ed99b1b1e55df0b314dbf84fc2509c77bc20eb72eedfb46f7e197ef39dafbe28"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-10-31.json",
+   "bytes": 621,
+   "sha256": "6d09b46db3120834ed8aa2a939133db938a3f9d210e52bec0d7a7a0ac9923a12"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-11-30.json",
+   "bytes": 622,
+   "sha256": "0158e8c03e9a277af0c14da10edee25fb583fe8fc27750e68bf5b305cf97b5a6"
+  },
+  {
+   "arquivo": "data/far/matriz/2024-12-31.json",
+   "bytes": 619,
+   "sha256": "b3f5eb2835c9ddb2395b49cd5ab9ec1e9b86e963dab41d5cecf6a0534dc91cad"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-01-31.json",
+   "bytes": 620,
+   "sha256": "b73b1f67a5c9c4b738c35094fbc4ea2f50cea73e61e3bd735b4d9a3e8ae09f19"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-02-28.json",
+   "bytes": 618,
+   "sha256": "b82e9248cd4857265aa1901f7369c7ed5bda1b07f35d9339698af8944668d9c3"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-03-31.json",
+   "bytes": 627,
+   "sha256": "98d182cae1e4d712482f0ed7e632fe214df44ee6e175fa060a402e23f2728a88"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-04-30.json",
+   "bytes": 615,
+   "sha256": "8f92decf8487415764dbac32cb02e32f8b6fc74f7936dbace4bd1d91f499cc4a"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-05-31.json",
+   "bytes": 613,
+   "sha256": "a13b51a6ccc3bb4c9380b0173e1d6d3389cf1d31047b820119e53d06052c189e"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-06-30.json",
+   "bytes": 620,
+   "sha256": "5eb2807773c23eba8a79b1ce50b7ea826f0ef164f5e34b2f2e11e41a1cb1d3a7"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-07-31.json",
+   "bytes": 621,
+   "sha256": "b547d7ae26de27230fdf0c702a54952a5e42447c1df1041c08c0658dd4f326f4"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-08-31.json",
+   "bytes": 618,
+   "sha256": "0c988bba042d4c5ebb45e0a6f845572d28caca472d60d5d24685df7417d7c3d8"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-09-30.json",
+   "bytes": 621,
+   "sha256": "d208d8bc68adcc85ce8e2cb300a62445becfd5c70ef6b26a9e1547afdf9f9056"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-10-31.json",
+   "bytes": 620,
+   "sha256": "4fa487005cb1ac8239d33f84a0c6bd954eecd8b8f9b0a28ab76e904322cbb3f6"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-11-30.json",
+   "bytes": 620,
+   "sha256": "fcbccb70229634a38ba132ef76be9e0fbd02251756e6d3229ff5bf17746d2bd7"
+  },
+  {
+   "arquivo": "data/far/matriz/2025-12-31.json",
+   "bytes": 619,
+   "sha256": "cc96be8ec9a8c676162c8fc40cc0c5e9853dcdf48567a29b6fc102972fcfaea7"
+  },
+  {
+   "arquivo": "data/far/migracao/2023-12-31.json",
+   "bytes": 1126,
+   "sha256": "e232f92be1448bde8e6e34ea799e914ea5ee6f6845213a98f0a12ec9de437b31"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-01-31.json",
+   "bytes": 1687,
+   "sha256": "4f40fa812200e6c2f152b5e0b5643c80448475acfa459fc7ecc5e30891bfc9ee"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-02-29.json",
+   "bytes": 1668,
+   "sha256": "5adeed1b4207e646523c805766f26b762f9992c5b1a5c7cdb76089eed21166d7"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-03-31.json",
+   "bytes": 1537,
+   "sha256": "4bc36eb51372f94b4daec3a9f1123ae731ccac5daeff2e1269e5a115f5f45591"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-04-30.json",
+   "bytes": 1537,
+   "sha256": "c8347b7c81293b0dd59d11645adead186ed5373c68d3bc45ac4389ec1a2d3531"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-05-31.json",
+   "bytes": 1595,
+   "sha256": "5f3e6ed52a0b00c35ad417dd6a90a760a188d9eac1e4b8a6040ede8abfa570d7"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-06-30.json",
+   "bytes": 1538,
+   "sha256": "ba0d9abf0a31c3bd864ab0d6f3035a4e2de2d309a8af0f75a2de5133b616b00e"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-07-31.json",
+   "bytes": 1538,
+   "sha256": "40664443ca8fc07309ecd9f3176582c84c15e2096455cf518993ebea14e8a5f4"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-08-31.json",
+   "bytes": 1505,
+   "sha256": "e6f7408a161af1d575a680b0e5080691f8b835daeecd03679b9d4111c2abd8d2"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-09-30.json",
+   "bytes": 1475,
+   "sha256": "d42fd6ed30bb18f1a851af1b5fad9968a7d9e8d0beb35dd9a76d622d0aeedca1"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-10-31.json",
+   "bytes": 1506,
+   "sha256": "c214d57edf9fba3ecd5692b835331f4129b000c3cd5ffb24c9137a8f107a28ab"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-11-30.json",
+   "bytes": 1539,
+   "sha256": "6e696ce0ee6b06b98ab804e860805a7d5675899fa3dc9b0606321b55f8031835"
+  },
+  {
+   "arquivo": "data/far/migracao/2024-12-31.json",
+   "bytes": 2408,
+   "sha256": "87c1ef0006ce15ddb4a00f4f2bc6f08df110fc9fb694964f9b5856d0af3a107f"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-01-31.json",
+   "bytes": 2391,
+   "sha256": "1e2d42081ef95b219d7b658ae2ba012c11407674598f45e8d8ce3b7e76c2469b"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-02-28.json",
+   "bytes": 2208,
+   "sha256": "07b568d58642e974a56478236b789195931eceed37a7ddbf0d62f3f0f041aaca"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-03-31.json",
+   "bytes": 2298,
+   "sha256": "07c04fab0a2249b4f26653448d76995fe7620dda958f8f8efed0aaf571c025ad"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-04-30.json",
+   "bytes": 2173,
+   "sha256": "e0aff8baffa1851b9cb05577d88f534f2ddad3f32c8bfa77a7e290c4cdaed431"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-05-31.json",
+   "bytes": 2075,
+   "sha256": "f7bdbc7c79b0a52cf1a2397160f1e6967003766bacf46d16ad17258f7cf69bb9"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-06-30.json",
+   "bytes": 2274,
+   "sha256": "2cfe678a5ea05de04eac79e64aae7a8e0dbb0acd385a53e66aaeb4c55f00e992"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-07-31.json",
+   "bytes": 2198,
+   "sha256": "2a3788c6a4c95b3c7aad5ce8a6853fcfabcacf171a6f6021d032c7841caa86f2"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-08-31.json",
+   "bytes": 2176,
+   "sha256": "cdc5cc43d91c75ade537d53ece79fa912c614517a502dcbfbcdfa57b1f98a782"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-09-30.json",
+   "bytes": 2266,
+   "sha256": "f7db89ec04348823e5ebbe3e7068bca2f8f0a2a2736cb247ccd0644b589662f2"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-10-31.json",
+   "bytes": 2196,
+   "sha256": "08bd0f411dc63fd6e3dd30b569ff669e074347568fd9ca3a4b9de1b5d06305b2"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-11-30.json",
+   "bytes": 2195,
+   "sha256": "20b8017810965d1bb8c16b07f441725b70d7b19dc195b87db8b44895fd23ec36"
+  },
+  {
+   "arquivo": "data/far/migracao/2025-12-31.json",
+   "bytes": 2284,
+   "sha256": "0f6b0f365346bf96e85157c1c83cf355fa6b29a0ad4db1621168cd7ee7f045f1"
+  },
+  {
+   "arquivo": "data/far/pareto/2023-12-31.json",
+   "bytes": 5336,
+   "sha256": "0a1135fbd567e0391d36e2f362bb01cd93b7ad6b6fc66f834d9e10ce54bb7d19"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-01-31.json",
+   "bytes": 5342,
+   "sha256": "a459a5af6a290eb31200bda7737466ba193ece59761e15c151547c5730278751"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-02-29.json",
+   "bytes": 5347,
+   "sha256": "6417003d6ca0c95dfcc9f4f1a2a179c046454602cb563dcafe87af35a96cd43d"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-03-31.json",
+   "bytes": 5342,
+   "sha256": "4279dd04923795f838e79841d2b54e518476dd73226f6572419f966ac3b49bdd"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-04-30.json",
+   "bytes": 5342,
+   "sha256": "102e30e2591cfee36d73392e0b33759d548138643855f299826731b2ab0bda4f"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-05-31.json",
+   "bytes": 5345,
+   "sha256": "3f11e6fb400693e32d5eb5ceb16ab4cf2e45201906677203a0ba80f53e846b2b"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-06-30.json",
+   "bytes": 5346,
+   "sha256": "1fe71ba5a6f958cb285256448937d2fd36d69f3546b6cc352e96e0839221d117"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-07-31.json",
+   "bytes": 5341,
+   "sha256": "0a10e2b1c5ef455faba5484a47bdcb5adba432eaf868de2f28fda5a20f0be2e3"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-08-31.json",
+   "bytes": 5336,
+   "sha256": "f541eee31fb04ed30c9c7231042ae0fd0585b4aa1a86398a4ef1552f409404fb"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-09-30.json",
+   "bytes": 5345,
+   "sha256": "1bf6dfa725228fbf92e95beaa3c022b9ca3ba4f3aa540eab503349cceb49835c"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-10-31.json",
+   "bytes": 5336,
+   "sha256": "f6d4cd8c905d4ec4d0b3753a0b6a3f82729d80710e525322824fd3c414fec8f9"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-11-30.json",
+   "bytes": 5343,
+   "sha256": "71f6cfef3a657c5ef42d66ab940f23d9fabec1b791235022d3b8f5ed9246dc5c"
+  },
+  {
+   "arquivo": "data/far/pareto/2024-12-31.json",
+   "bytes": 5343,
+   "sha256": "8c48af337d2d6362badab2b244b1e6483356b38ceb2376a484b58df56633109a"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-01-31.json",
+   "bytes": 5348,
+   "sha256": "a1b9c91b721f2e5c399e72eb650d446080fa9daa776aebbaae95733967d0eb9c"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-02-28.json",
+   "bytes": 5341,
+   "sha256": "d62deba21e7fc56bf129117a139f79cbeca8d3d67aa0e8cd15bd57fddaaa75cb"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-03-31.json",
+   "bytes": 5344,
+   "sha256": "f8ef20764cd213f5863610c6e4d65dc6c3c74924036171c56d9669e737744ffb"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-04-30.json",
+   "bytes": 5342,
+   "sha256": "210339b15e9d316a75c386902c9147724f17bf371d3cd82dc4155a64b6878c37"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-05-31.json",
+   "bytes": 5342,
+   "sha256": "f0d950e61bfd288f6411c9e7fa3b07effe34a04da4071394403fbd51328ce410"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-06-30.json",
+   "bytes": 5349,
+   "sha256": "cb66604070bd934d2c10ff7409a7a1abebabefb39fcb40c33a5e39e3fe25ab12"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-07-31.json",
+   "bytes": 5339,
+   "sha256": "87f2d4aaa0a1d62b9502b8f4a37329af348402f6fc230d3a0984e84076940774"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-08-31.json",
+   "bytes": 5352,
+   "sha256": "e783938340ac3cc989aea9bbb5e34310314196a97a573302f452ace689d5960e"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-09-30.json",
+   "bytes": 5347,
+   "sha256": "df7b310cc86e190c4f7f466e9a923684d7756e36fb956aa16de9c6ad417a5402"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-10-31.json",
+   "bytes": 5351,
+   "sha256": "8db3f617e3bc26f7676811ab9aa83b5e61c886f6d3b27d1ef2f82c3c0a0c655c"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-11-30.json",
+   "bytes": 5339,
+   "sha256": "5225dd4b5f6d5bef0b3f8e31b25d66ab45df1bdeb9f9d28d648d216e3001447f"
+  },
+  {
+   "arquivo": "data/far/pareto/2025-12-31.json",
+   "bytes": 5340,
+   "sha256": "9e490cf9b4fcbb0bde7d476e9f1084acd5e0a5027b59ad9a60511e44b96345f8"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2023-12-31.json",
+   "bytes": 818,
+   "sha256": "53746ed188535870f17d00dc8389e598ceb71b581fff905f9dabca7eeee66e6e"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-01-31.json",
+   "bytes": 826,
+   "sha256": "cb4eb492c9b60583ccfba85d8b68d513a1e2878f8646ddbe607e4a01e3c41259"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-02-29.json",
+   "bytes": 826,
+   "sha256": "35ba7c9dd6aae82faff67a12896c4d8501fd5f408cd649e320ebbadf0223ab07"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-03-31.json",
+   "bytes": 821,
+   "sha256": "40b86c42b8a220d6c07130e384b07bf7fd68febd1740ed23696a5291eb1b350f"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-04-30.json",
+   "bytes": 823,
+   "sha256": "ce74fd6b9bdf1a1fbb7f9b94a709f8379408b6d37214de1098b821b1907f0bd0"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-05-31.json",
+   "bytes": 826,
+   "sha256": "f99adde094fa535b79a9191f907f7e1bb4e0147211693af332a6e156d3c31448"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-06-30.json",
+   "bytes": 826,
+   "sha256": "dc62e7d0e43d32f96ce76ccd428cf652023e497f34ef85e0dd942f65f4fa1b4c"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-07-31.json",
+   "bytes": 821,
+   "sha256": "261e91d48f9cbd4c5eb5d12ac7d94bc3c2c1f920573bbd4557bed75d384479ab"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-08-31.json",
+   "bytes": 818,
+   "sha256": "1f7aa0ba9a0f32704a26c53abd72233223026a1b5b6a663fd60d7beda6b68493"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-09-30.json",
+   "bytes": 826,
+   "sha256": "cf669ba14f09e684a8f8a1748892970fd5ccb9c8c57eaf6a83121e438533ff1d"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-10-31.json",
+   "bytes": 826,
+   "sha256": "b840796a05bd78815a25efc0414d5884bdb2a162335a8bcd3ca81898986872ed"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-11-30.json",
+   "bytes": 821,
+   "sha256": "55ce953c819217160d720803c7092b5634cac0d5c1431276d13b92402cd58a00"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2024-12-31.json",
+   "bytes": 826,
+   "sha256": "88e13f30df8847e9602e7a613910a14a93e564e388e43ff6f22e29c668c7b8c9"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-01-31.json",
+   "bytes": 826,
+   "sha256": "ba7ce2dbd5c31a6427b90addcbd8876ce48df753ad303d61fe41fd90526db7af"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-02-28.json",
+   "bytes": 826,
+   "sha256": "d90e426b20736d9baa3c48abd4fffbed42af5c648d03c79c7d5fb3548c8e20bb"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-03-31.json",
+   "bytes": 826,
+   "sha256": "357f9cb85687abac0497414276a41a2d75c9e92bdaf25fc1797d09056932e7bc"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-04-30.json",
+   "bytes": 826,
+   "sha256": "1d4fb9e80d591fce1e6fc4d372e590cce3928d7bba0ff4cfe0c8d41f1546c0c5"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-05-31.json",
+   "bytes": 821,
+   "sha256": "98124710e62daf2f75b476f2beee9f26cc08e77fa51f879bd7b8d4ddbb6093cd"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-06-30.json",
+   "bytes": 821,
+   "sha256": "8d6e54b4b8d9db028189f9a14ec1dd23a8b9d4ba5e367dd3db844abd2df48790"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-07-31.json",
+   "bytes": 826,
+   "sha256": "1463d41d4efedcab5867be26e0d8ffdc2e68f1d6f1da83166e3acd1a444afda4"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-08-31.json",
+   "bytes": 818,
+   "sha256": "c8e7b0aa82ae8ebedaaab97f42fed3dd12c9d723a2291f2c66679eacf6a285cc"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-09-30.json",
+   "bytes": 826,
+   "sha256": "931fb014ab45769641da40569f5c7db1b7c45422769a182adf29fd7da7aac18c"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-10-31.json",
+   "bytes": 818,
+   "sha256": "330743a3c094f69b38ec1b059531763c508107414ec33a6f998406e24051544b"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-11-30.json",
+   "bytes": 821,
+   "sha256": "c15aa613fcccf642718f1e86bd7f39eb649f889abd96571fdee6514b74515e78"
+  },
+  {
+   "arquivo": "data/far/reconciliacao/2025-12-31.json",
+   "bytes": 821,
+   "sha256": "7529597b65aac87079c6bbdbb1a1d626aaea2223dbfd0882bbec8e5b7afd03bf"
+  },
+  {
+   "arquivo": "data/far/rfv/2023-12-31.parquet",
+   "bytes": 142440,
+   "sha256": "3e42aa4fcfe8d131d51d4807875930818b0a12f11e377a9938095f2f0f5c2c7d"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-01-31.parquet",
+   "bytes": 151829,
+   "sha256": "b1368114528b047ada7f0e9c4609f64d6ed8df902135773c1ec008258a097c3b"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-02-29.parquet",
+   "bytes": 153857,
+   "sha256": "3f8ca2ec3aa78e86096b9860db9e6c9c7e436e1d6a8b416480e3be507b4719cb"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-03-31.parquet",
+   "bytes": 155813,
+   "sha256": "7d8ad4b18ec1dfecd7d38e07d0626a6ff088a4561d1c827b2bbcd74673bfcded"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-04-30.parquet",
+   "bytes": 156069,
+   "sha256": "3a62297c27a602c2a4c687c5a407564de5a2dc6c549bbd855c9f5a6a7255167a"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-05-31.parquet",
+   "bytes": 157323,
+   "sha256": "50e4bb652179e96dd3c0d1cdbcbb6e2879150ed11d8110420be74921d17d5005"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-06-30.parquet",
+   "bytes": 158580,
+   "sha256": "fb9b6501f145874865bd9abd8878618e7d2b21d8c0c7161f878c9b5955736a15"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-07-31.parquet",
+   "bytes": 159613,
+   "sha256": "7bf9a78803d6b34df233296f54a894ae92d04bd8f44721894630f5c2dfc794cc"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-08-31.parquet",
+   "bytes": 160081,
+   "sha256": "2342c84e196abedc267bea4281afc2b3d01aa4085b6d71890a01a8761e5e66c5"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-09-30.parquet",
+   "bytes": 160846,
+   "sha256": "8514f904b38fc8155db95cb77c8b7ab94db29accdedd22ca960c64faf6b6d542"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-10-31.parquet",
+   "bytes": 161552,
+   "sha256": "7ba6ec71d73a98c24aade1237b4d9e92350e6b3283b77bf0c81f3e86a12d3bee"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-11-30.parquet",
+   "bytes": 162518,
+   "sha256": "b108adfcc189604a5c6c632c0e93799a4c6d51d94dc227663874570cd61b48ee"
+  },
+  {
+   "arquivo": "data/far/rfv/2024-12-31.parquet",
+   "bytes": 169959,
+   "sha256": "d515cac89468dfd21e2dd28d0bb87fddc4d542cc6b0bb1fc1ef348ec960e5482"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-01-31.parquet",
+   "bytes": 170715,
+   "sha256": "2c934acb00f8fc840039e6798586c026fb2176ac77931663b6619fc5a879e5da"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-02-28.parquet",
+   "bytes": 171393,
+   "sha256": "ff12a70c8957c2caf2da839810e0a6fbce1182de914f82ce2fec02a0d66a1a61"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-03-31.parquet",
+   "bytes": 171242,
+   "sha256": "065caf9e766114c86ea7e929d7398a80356a9e20f755841fd9ce37c59f77bd59"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-04-30.parquet",
+   "bytes": 171429,
+   "sha256": "811e8c1670e75e3c974040ab3e90389765b3fd1e690ba4ae13d2a53f2156d94e"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-05-31.parquet",
+   "bytes": 172064,
+   "sha256": "96d6400b3f4a1bb8caf6681517bd06188b87ff3626922264eabff68d671be846"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-06-30.parquet",
+   "bytes": 172184,
+   "sha256": "37bea32468f6e0a8efbf76447a5604c42960544f1c57e48312d203e53205e7c1"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-07-31.parquet",
+   "bytes": 173007,
+   "sha256": "080b32ee38614c03a42c62338727cd0d40ee636e7667c319cef33529161c1aef"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-08-31.parquet",
+   "bytes": 173454,
+   "sha256": "ecb72421e1165e0c594795e19da5943300dc59c3793ccb61774bec11973124de"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-09-30.parquet",
+   "bytes": 174014,
+   "sha256": "61dbfdd5d77d8e3e24d71ad76e35f14e4a1bc2dc299bce51148147f4f8460d84"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-10-31.parquet",
+   "bytes": 174552,
+   "sha256": "1a875b6f8852a9ffd366fa6e0d74c70a569723f942fedc88a6b55bd1910bec0b"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-11-30.parquet",
+   "bytes": 175285,
+   "sha256": "48c4baaeb7068c301dfbb9652ed2091e0f19a4ac38c7b83b888ce9dd94fc6f37"
+  },
+  {
+   "arquivo": "data/far/rfv/2025-12-31.parquet",
+   "bytes": 174725,
+   "sha256": "f6a485566fb49638e6e2c5b9e17fb85c139dde6d5252f004a5159baa5318dfba"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2023-12-31.json",
+   "bytes": 3094,
+   "sha256": "6a198bc93e26ea5b5d93b0802dc8c679e7cabb25807b09e9bf04c07bac07e351"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-01-31.json",
+   "bytes": 11634,
+   "sha256": "e913430ab6db24a8ec8343a1faa367132d33d095de7750c0809a53a5a6f4ff03"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-02-29.json",
+   "bytes": 11362,
+   "sha256": "adac0d42877550feda77a1f91d4952f76b1608294de2281329b7d0e15edf828b"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-03-31.json",
+   "bytes": 12071,
+   "sha256": "68a1ab25007c06e806ac07c5ca72b0e5068584f43fbed1e93ffe788c8ca58076"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-04-30.json",
+   "bytes": 11136,
+   "sha256": "76ac0f14858e05188a6754b86fc548018a002a175d8c8804b5a34a48825596a8"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-05-31.json",
+   "bytes": 12186,
+   "sha256": "d740e124439c468ab35361b6b4cd9912dd80197b2e69bbcf8aeaf4a0bf6a726f"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-06-30.json",
+   "bytes": 11287,
+   "sha256": "01a59b4405780261d32186a0acb34f38f86c4caa73c79bdfd289cc5a5fb3ac61"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-07-31.json",
+   "bytes": 11956,
+   "sha256": "6d4b8cfa2c9f2e4cecd8a4ee06536e647639996e5ce2f987b0b7811e6fc2e253"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-08-31.json",
+   "bytes": 12292,
+   "sha256": "ee61a5acee76eade7f4e17a83c7db0a0975cf26d5cfe2522fd61473ec46bcce1"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-09-30.json",
+   "bytes": 11827,
+   "sha256": "714fd9ab702725a2e7da5e576ea9f710a5c4e3202cb582d694c71685d0a81b2a"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-10-31.json",
+   "bytes": 12075,
+   "sha256": "13e20be1315243755a5737f4d4d219a88ab20482c88b1efc479969bd527522e1"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-11-30.json",
+   "bytes": 11457,
+   "sha256": "5083a27b3d3d88d666c691a795b50408a3a41283a294900e96b792d207c463a2"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2024-12-31.json",
+   "bytes": 29247,
+   "sha256": "3554e0f32b5a3ea99f6e4fba4f43ecf8bede7eb0fdce795b4d2feb3adba15545"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-01-31.json",
+   "bytes": 30346,
+   "sha256": "eec919f9e3ccc6a85d47e25bfed2f6329f637709446558ad2dae643401ebf527"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-02-28.json",
+   "bytes": 28255,
+   "sha256": "e4c588b25241233a9bb6a6fcdae21f189e043f6b67d0ae6c9e4aa9ee7cc9b779"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-03-31.json",
+   "bytes": 29781,
+   "sha256": "29f9da2fc2faba26e924ae52023cf37a75d7898818c1c7c7c1373b2620ad34ea"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-04-30.json",
+   "bytes": 28911,
+   "sha256": "a5c737b8431cfbcab59fd19750e7365376c46439f84b3db03da7a66319b90b38"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-05-31.json",
+   "bytes": 29758,
+   "sha256": "73affdae78d76a8666f119ee85f2a9df12dea97a37eefd1ec50391d25c2599ad"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-06-30.json",
+   "bytes": 28836,
+   "sha256": "0d59df7ed7de516af04a22ff4efbfdf6e30760ffc7a2107ee65a00b8bc12f68d"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-07-31.json",
+   "bytes": 29783,
+   "sha256": "bec51b58bf790a8e14c98f77b1c8a8c1889dd843e6e651c3b32e03d8528467b6"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-08-31.json",
+   "bytes": 29610,
+   "sha256": "c104c6eb7c4bdaa3591063d1e3fe6ece4310f86fadc079f23d10d8d2f0282db3"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-09-30.json",
+   "bytes": 29194,
+   "sha256": "99d6ef95039c3bd26051610bf307221f3ed0ad59fb9ebcd5c06b6adbf6814fb7"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-10-31.json",
+   "bytes": 30537,
+   "sha256": "d5b176d70695698cb5e227bf8095042098fa0440ed01e4ab43a2a584cbbab86d"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-11-30.json",
+   "bytes": 30005,
+   "sha256": "9015a6732ca7d0df2211d317be4ec0b6d6ebab23d9a061d2d67c26f7dc81bb69"
+  },
+  {
+   "arquivo": "data/far/rfv_resumo/2025-12-31.json",
+   "bytes": 30183,
+   "sha256": "6547916d48241e26ecc5ef62be2f18f35484ee3a490289d30a143ff0c42322bf"
+  },
+  {
+   "arquivo": "data/mkt/cortes.json",
+   "bytes": 353,
+   "sha256": "5bfb14816fd63a11dfdb524d17fcbc1ef640344fd2525a9d099f78b3753857dd"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2023-12-31.parquet",
+   "bytes": 15189,
+   "sha256": "3f53e8bb282d6d47cda4c1d65998378499d7f190e7bc6edc622fb407ce45235d"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-01-31.parquet",
+   "bytes": 15301,
+   "sha256": "df3c599e597df85a3df9648784133b071ccc531f5d70cd8474553602e8afa14d"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-02-29.parquet",
+   "bytes": 15297,
+   "sha256": "bf7d6e2a27cd7fe5794d4dd48bf48ec1bb6d3fbcae6912ba512e57c05ca47517"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-03-31.parquet",
+   "bytes": 15350,
+   "sha256": "a81de60ff37ce37416945a46d0cbb09ec960fc3d67507dec3cfce45a36c7c86a"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-04-30.parquet",
+   "bytes": 15405,
+   "sha256": "3eb70a279272ce7b2864c904ba47d4782dea845d9a2fc3f8f8ea7b4fdeaff70d"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-05-31.parquet",
+   "bytes": 15475,
+   "sha256": "be16f40a53a6121e4c9d9a5fff626f64f90ad829600cc26965e3716413c97c8b"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-06-30.parquet",
+   "bytes": 15515,
+   "sha256": "8b3c92932177c7b8111405cebd1575b3f2edb5a79cae9cf071ed74a063ff615d"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-07-31.parquet",
+   "bytes": 15495,
+   "sha256": "d352501d7d0feda92e488ad71407c66da52585d4986c7e1005a08e041ef0e3dc"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-08-31.parquet",
+   "bytes": 15320,
+   "sha256": "f7e23160e1e5821627ab94e1cf0a4eb9f5f9a0f774e5549c8eeecb228f630ef0"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-09-30.parquet",
+   "bytes": 15379,
+   "sha256": "623622922cc966dde22b51e88c66ba937fddf26f112398b9396a6d725e4f1f1e"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-10-31.parquet",
+   "bytes": 15235,
+   "sha256": "c749cd229ae71b9a97619ead9f9a66699c2492c72eccaaee55af961df3ef9130"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-11-30.parquet",
+   "bytes": 15220,
+   "sha256": "502b492b468d124eb0c4d7ca16e9319f845b26c9fd6dfdec471179bd63d05276"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2024-12-31.parquet",
+   "bytes": 15101,
+   "sha256": "e1233bb75fceaa2c5508c06a9af25fc5c93a2670999027f0153ca228b67bef59"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-01-31.parquet",
+   "bytes": 15061,
+   "sha256": "1b7e9d2c36ea921d9e99ff86ba0d8b1e8f79e1d1372ac0fe76bdb9c795be32b9"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-02-28.parquet",
+   "bytes": 15113,
+   "sha256": "ceb91ecffaf0d40207ee544e4efc383b784b4fb16ed8f7fb5829d8ad5f7f6f24"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-03-31.parquet",
+   "bytes": 15239,
+   "sha256": "d07fba0a1586ad25f77c41fb2595b8d0fe00c8e2bfd2930afcb21dc45c3491d9"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-04-30.parquet",
+   "bytes": 15292,
+   "sha256": "5cac5aa1332088671c9c2443deb9c1bd4b6cf99bae084f6d02ffbd68d04d12b6"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-05-31.parquet",
+   "bytes": 15338,
+   "sha256": "25a3d50b47dd78893e115cddc688a8963a2348a2cb0c4dd9c490c518f7e9cf06"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-06-30.parquet",
+   "bytes": 15302,
+   "sha256": "f406a4589a76cae91b3b4d018efc24308efe4a4903dc9c0575afb53c0e7cc638"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-07-31.parquet",
+   "bytes": 15168,
+   "sha256": "4702c9cd4e716230c939e1ad8c3fe589bd1778ab99c20554d5dd1d3859bf1d2b"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-08-31.parquet",
+   "bytes": 15144,
+   "sha256": "2107af5f99ac24ccb50b7c959ed63028e2ca260fbf1aa043c13e8ce0693513e9"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-09-30.parquet",
+   "bytes": 15198,
+   "sha256": "12cfface11254b390f7d587e1f8727e39a4239263fca032ceb0006b4247b5d43"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-10-31.parquet",
+   "bytes": 15148,
+   "sha256": "69b52509ca9eae31cff5530e49e30ace5ee068f47b9f21e60ff73def89b3a970"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-11-30.parquet",
+   "bytes": 15135,
+   "sha256": "91d4fcad44308111d2240be22fc0f16ce3fd24c06561260263a37371bcd0ce07"
+  },
+  {
+   "arquivo": "data/mkt/entidades/2025-12-31.parquet",
+   "bytes": 15071,
+   "sha256": "499c6f5261c14f060b3935d521909a814a07cdf8781397f957345f6d3cd3a33f"
+  },
+  {
+   "arquivo": "data/mkt/manifest.json",
+   "bytes": 28867,
+   "sha256": "785e25f646741c5709bfb71938b8b06d54e1543c6ed2b2331aa6685759d9d052"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2023-12-31.json",
+   "bytes": 571,
+   "sha256": "bcab071d1b5863cba668cf8910a75b8322530db2366a609050034eee49b0f08b"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-01-31.json",
+   "bytes": 569,
+   "sha256": "36a0887a70b0d3ec1616210f08050e57142ada97ec6c37a6359d4e2c728d50ab"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-02-29.json",
+   "bytes": 567,
+   "sha256": "ff82262dc451a706e5b67525533383744ef69181785c5c949d50c565131ca7a4"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-03-31.json",
+   "bytes": 569,
+   "sha256": "ef5edecaf5d80dee30a8c047b28d5ddbcf2a54d9cb63fe05dd3747cc3d49e554"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-04-30.json",
+   "bytes": 571,
+   "sha256": "076fb4b0b36cc775110443ef657eb0cc721682ce8dc05f950b9b45f71f575b9b"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-05-31.json",
+   "bytes": 570,
+   "sha256": "fe8f0ed450e6e5afd32f5dc186c9980d35ab3af0f7e32216e9936816be46501c"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-06-30.json",
+   "bytes": 571,
+   "sha256": "55dbedd85c3d8470ecc13ac64b531d61eb3a6f756854280cebf387ba7a25818e"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-07-31.json",
+   "bytes": 570,
+   "sha256": "f44848cb7d156318375f57bb9b29b0530524f1080adf967f2ce6eeacea307427"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-08-31.json",
+   "bytes": 571,
+   "sha256": "03f97520d28a95402cdefff1c7bdb9a01ff08a46dedd52a881b8c45dfd1b97f0"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-09-30.json",
+   "bytes": 571,
+   "sha256": "093b8d55248a54d2b8cd8c88dca552e0c4a8897826e8bf1c42056ec7420d4209"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-10-31.json",
+   "bytes": 571,
+   "sha256": "9af52477d4df3418c62d6213c514803135cd34160478f29dde20b306755f6fda"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-11-30.json",
+   "bytes": 571,
+   "sha256": "315e00ee57670f37b10bb5f4e7279b1d8b51cf2a128d9cb25d3b821f7d821523"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2024-12-31.json",
+   "bytes": 571,
+   "sha256": "83416baa46c03b9210e15a241b83767b965f1dd8ea7b3cc5b9e28be0c5a5c428"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-01-31.json",
+   "bytes": 571,
+   "sha256": "9982f05356df9419384324e7f45456d0bf183502e5667cf121b1d46b329aa394"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-02-28.json",
+   "bytes": 571,
+   "sha256": "b8cc66bedf579a2719485f9e6eeedc34e747e74958a6e048cefedaea944ad961"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-03-31.json",
+   "bytes": 570,
+   "sha256": "59dc84ab8585950a201afb356e422946e4dee5078e37f9b087dc1f042ae4bbcc"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-04-30.json",
+   "bytes": 570,
+   "sha256": "c75eadc4b0b4a8b02b648f2341260743adbf4fd11f02863e1e1c3ebe620154fd"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-05-31.json",
+   "bytes": 570,
+   "sha256": "8fdab5214ee95d2e80e0d37dfa095cf1f17dfef119b5e047519dae71dee2339e"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-06-30.json",
+   "bytes": 571,
+   "sha256": "491ac4c22d73f74b85b6f86439e9abd84f5f30a3c8b0791636e0dea8ed9e3083"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-07-31.json",
+   "bytes": 571,
+   "sha256": "d65e1a800f19d733862ef1e21ec36a2a4ca80eec08b7a6d1e221e5a428078def"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-08-31.json",
+   "bytes": 570,
+   "sha256": "dda1a3951c7f39815b9e20fb567700590e5bf975edf8eeb982b408fdf9e99f3a"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-09-30.json",
+   "bytes": 570,
+   "sha256": "77c4e1d97d3be1b8c3e065e06aa1c8b4fe0fbb2ee247d9d1e5c762b91210b96b"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-10-31.json",
+   "bytes": 570,
+   "sha256": "1b9859cfb4501c4f2f08be45579f94ac10979c8529015cc6ddb57609086f53de"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-11-30.json",
+   "bytes": 570,
+   "sha256": "daea7ac5827c9596d416b70ca7d2304b04de4cd41e89ef9e7b2c18711c978400"
+  },
+  {
+   "arquivo": "data/mkt/matriz/2025-12-31.json",
+   "bytes": 569,
+   "sha256": "6fc69a48c1bade99c2089da6c074a762a43b43b0ee57624b10f8c0c976e1e3d0"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2023-12-31.json",
+   "bytes": 686,
+   "sha256": "fdf0696b37a2cd14afc5f58e8ba9ca5515535adab0b217da01cfd755f4152156"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-01-31.json",
+   "bytes": 729,
+   "sha256": "3c5b029830f885464426ce5f843ef0d5ea8642efeec596063b3b71601913bea4"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-02-29.json",
+   "bytes": 673,
+   "sha256": "6065a0fd6fdf1b9cdff291ac60e946e5f76e67c4e8c9b01fba5467d36d9b1f25"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-03-31.json",
+   "bytes": 674,
+   "sha256": "78d87397a372c323af7608c71c0140ea790f8a6b45f59964dac104638ba59b11"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-04-30.json",
+   "bytes": 702,
+   "sha256": "c6a6722df2c989b8ba32bc23b4486b2db4633261c679c616005b9c7cdce53ca0"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-05-31.json",
+   "bytes": 731,
+   "sha256": "a23723ebb5b6536ec5f61c13d983f8e9128892f244cdddbc725fb4226aea75ec"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-06-30.json",
+   "bytes": 703,
+   "sha256": "6b9db7a372bca2fe20cfd40c22abb20d165f3beb30e4f95d574c0dde8b1be7bd"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-07-31.json",
+   "bytes": 731,
+   "sha256": "5425ae17ca414c7f28dfa1e784da0ee8021400eb8236b2e2b11a35dfeeb8baff"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-08-31.json",
+   "bytes": 703,
+   "sha256": "5b6455db638298b2657a39f1819c58aa0be931e003c93715790d9127e696cb6e"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-09-30.json",
+   "bytes": 675,
+   "sha256": "d5bfbbe86d4419e489dde688d27261544c089a47fadc0d3c61b68367c1a6f3a7"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-10-31.json",
+   "bytes": 760,
+   "sha256": "00f100c7399eba948e065d15f38b7a677567e6228b7e3ff9a4bb12cfc013689e"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-11-30.json",
+   "bytes": 674,
+   "sha256": "3c1e5b80c1a6c610ffde6e1c0aafdf17bcc22925718a3c57fe37fbbfce0c1a89"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2024-12-31.json",
+   "bytes": 775,
+   "sha256": "054f1a12ef1b55d4f1011d12124e858b84f8a54ac320da512f7c42a3834850ae"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-01-31.json",
+   "bytes": 776,
+   "sha256": "8fc220e09d2be8130f3f31e5009607114ec8bbb61e3986541dc9de3a8fe186aa"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-02-28.json",
+   "bytes": 861,
+   "sha256": "b61d24cbc7508721ce38d8da90758dfeb3b47fb2771fed1a94a2b856413224c7"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-03-31.json",
+   "bytes": 918,
+   "sha256": "0eb6d4a08a8f2c2596d19db66b1ddc909cb37d9d709cbc6ce5aa4b689233f7db"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-04-30.json",
+   "bytes": 859,
+   "sha256": "3d26f46686655fdb948ffb80a77a0fbb9153e736e33dd800df7479d08e6428f0"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-05-31.json",
+   "bytes": 858,
+   "sha256": "3f2fe1e43f60b8f19aa6d71d2f63635dde4715936f41fad9b38dcef6c4e6d8ec"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-06-30.json",
+   "bytes": 801,
+   "sha256": "7813a256ada3221b0434c671c2daf82d45f879a4b7e17592af136f59e3f2daf5"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-07-31.json",
+   "bytes": 917,
+   "sha256": "1ba5861764a6bac7e056d1599a70417fd7f4c569b1d641bb465e632e4c9d3f14"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-08-31.json",
+   "bytes": 776,
+   "sha256": "3f813f30b164b907464b61c7a52203e67d8c3a76c24e3d47ca79b1348be156ab"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-09-30.json",
+   "bytes": 716,
+   "sha256": "553d1926cadc3db01f3c9f2bd1dada3cdf105119a7a1660036a83afeda2af84d"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-10-31.json",
+   "bytes": 748,
+   "sha256": "6a55b377d93541b8b0a17f2a4aee3fb2153ed782955c1fcd4026fafcb9197825"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-11-30.json",
+   "bytes": 920,
+   "sha256": "13b27db285e26aa735bc0aa362cffd6f7577c142cc0d2c1df206681b5e23b51d"
+  },
+  {
+   "arquivo": "data/mkt/migracao/2025-12-31.json",
+   "bytes": 779,
+   "sha256": "55dbd1ff80fa144857fe4619b1d4ebc4a4e67b2285d42ad0b6de9a42ef5ef92e"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2023-12-31.json",
+   "bytes": 2562,
+   "sha256": "2f731de3286f2730064f5c9a1918ba92f37db9912f6558c3f83a029ec713ff68"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-01-31.json",
+   "bytes": 2769,
+   "sha256": "f791d6d1802fa6b1678f615227f4a5684233e55908bab99ba339af809d8392a6"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-02-29.json",
+   "bytes": 2771,
+   "sha256": "9908ec39d18a4b894c0c18df4b5673cf6e47d60e7390e1b4354ac9b75b165eb1"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-03-31.json",
+   "bytes": 2870,
+   "sha256": "b26995a5b75bd1f23dac9ae7f1f46c099dd18b82b3a75486d852cca8d35f8b04"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-04-30.json",
+   "bytes": 2980,
+   "sha256": "20a6b181eab50e136b0b478dd82f617b7dd8232628f9b60722009dc72817923c"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-05-31.json",
+   "bytes": 3079,
+   "sha256": "7a45800fa9d4b412524e36d81b5b0b5d5ab2d836b63467021154b8a70f87665e"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-06-30.json",
+   "bytes": 3184,
+   "sha256": "0d6b61aeda189a76c186b391f4bec4fd964058b98cfb02d7de7e8d8270ab18d8"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-07-31.json",
+   "bytes": 3180,
+   "sha256": "e8388b9ae7de764cf1bb91a321b5a6122b88312e2cfbddd37bbb3ddae9b13c27"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-08-31.json",
+   "bytes": 2869,
+   "sha256": "341f853b8703b38879a0504284620b8bc7566f11f7de0cbcba944247e1bbdd53"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-09-30.json",
+   "bytes": 2968,
+   "sha256": "012d3cfdf515cfff745d461f7771ad32df8b0411b453819c7c1ccdc040b8b8b7"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-10-31.json",
+   "bytes": 2657,
+   "sha256": "30febea40ecf39cec7c859980c105f915ec1dc5283a81760e0ba26a0eadd4918"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-11-30.json",
+   "bytes": 2658,
+   "sha256": "e7b606c09efc9376d36d1737e12c3c2d4b40b4aaaad74efa5894b6990c82226e"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2024-12-31.json",
+   "bytes": 2554,
+   "sha256": "46bd498c9a218a094da50c57e2909dff9cc9a45bc5fe769a2a2d3b16fcdc9c18"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-01-31.json",
+   "bytes": 2449,
+   "sha256": "81099a2fa436635dfa7b6b56d3731d839a11217ee8ab4db0481a0d8e83b9fc75"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-02-28.json",
+   "bytes": 2551,
+   "sha256": "fc565a3d6aaf4d2f12900529a296e546c084b985f97f20f010dc180db3062650"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-03-31.json",
+   "bytes": 2753,
+   "sha256": "31e3df066054f74e4a3cab32e90c46d40c22cabeb2fcd7cedeb39eca3f61954d"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-04-30.json",
+   "bytes": 2863,
+   "sha256": "403eeacf8613250ac6c3c3524b9a12f20dd9ded380f2ee185a100db05725503f"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-05-31.json",
+   "bytes": 2977,
+   "sha256": "42854b6c3acab9294bbe35d13ffc0a9dd2b3f49f3a61c2c15cbba456881a3dc1"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-06-30.json",
+   "bytes": 2870,
+   "sha256": "34dabe48c239583f1b13022ec1fc3d493f185d48f4872397cb485ecfe8f1dc37"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-07-31.json",
+   "bytes": 2658,
+   "sha256": "0479c58b3e384747cac1713e2b9b416b4f3f4d913e34536954602fff77a9f248"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-08-31.json",
+   "bytes": 2657,
+   "sha256": "c1d62e14eadb0587e0f12026d0ae873d03c728e742d2286c27d3c978102e73bf"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-09-30.json",
+   "bytes": 2769,
+   "sha256": "f81accd55c334839304ae42aa5584a1ef32837646ae3b4b9fdd66d20d5445377"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-10-31.json",
+   "bytes": 2660,
+   "sha256": "25c5a656744638a3fd9f0f3686905f5792271ca5d0aed44a7e259b8ab1b570c4"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-11-30.json",
+   "bytes": 2661,
+   "sha256": "9d4393c2276586bb9d5a8cea6ad9ae886cb1c7147216d683f8d623a3afc5db12"
+  },
+  {
+   "arquivo": "data/mkt/pareto/2025-12-31.json",
+   "bytes": 2552,
+   "sha256": "4757467bab647acfd55d002dc119dc1e158b4b7102b2020dce670110394fac80"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2023-12-31.json",
+   "bytes": 854,
+   "sha256": "5d56e4a85ebb59d95ce83a535bcea9129c7720afa6c9bae24b3d2ef1da7e6efe"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-01-31.json",
+   "bytes": 854,
+   "sha256": "1ca3611c456e12f067026531d451b750e3a07615e2dce3e664523e5ffac552da"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-02-29.json",
+   "bytes": 854,
+   "sha256": "1d4edce508b2b53f22f26782fc930c31108b8e3b18630dd07e6baf1b94914ab6"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-03-31.json",
+   "bytes": 854,
+   "sha256": "e725f4a5c5842822cebf4149c5a21ef5132bcda28f02735d01add86d0863cd3a"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-04-30.json",
+   "bytes": 859,
+   "sha256": "4fab98c177ad06f1ca090e8b2a5f1962ea00c14d638bdd9f040f8db3045c0d90"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-05-31.json",
+   "bytes": 854,
+   "sha256": "432f95e40b5303b5e7b4902b8bc898548dfbe5b42153ab15a897c70c14c6459e"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-06-30.json",
+   "bytes": 854,
+   "sha256": "56b4bd0bb67c9c64ddb82f7493583bee33172f79a1dda63a29964b8f27f7500f"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-07-31.json",
+   "bytes": 854,
+   "sha256": "3eea5f03e6bb89de55400a0b07aaff33007bc94843a8e4015a58780e1a52978e"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-08-31.json",
+   "bytes": 854,
+   "sha256": "398b67063c5a20538439cb499901fd9a6c6076e63506084b0162192893be2d6a"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-09-30.json",
+   "bytes": 854,
+   "sha256": "34bbeb2df5f5375520d6b3acb0acc2d2c5b79d089e5ad6c1f1a3d5b05361f788"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-10-31.json",
+   "bytes": 854,
+   "sha256": "878c1bc236e3ccdcea2e0e09ff59dd3e321f8f7f2065de34db740b9182b9d50e"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-11-30.json",
+   "bytes": 854,
+   "sha256": "87bf9ca9cbdcc0580312301d2ff7ba3a23bf2e5d1b8ebee412dbf61a00d1013e"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2024-12-31.json",
+   "bytes": 854,
+   "sha256": "da624fef6befbf97957d169a208ec6f17a04fef4ea504001b8b776487a74448a"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-01-31.json",
+   "bytes": 854,
+   "sha256": "4b5f4838dada5a578e4d1fda45207baaaa4695eb60adcb1d98b0222dc02f3ade"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-02-28.json",
+   "bytes": 859,
+   "sha256": "571bcb405e50e9a9ba373c0860ba4aac38b5d916abfe15a89be7ead1c2c0b5b7"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-03-31.json",
+   "bytes": 856,
+   "sha256": "eace979e2a80573e898549b4288d5c217b9d830032963d4ab24af710e1ac8c50"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-04-30.json",
+   "bytes": 859,
+   "sha256": "896bee68f427bce060c524b7e0f508e346075300f6016d08e2972771ab3f99cc"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-05-31.json",
+   "bytes": 854,
+   "sha256": "23e384a1953fe7028a54f84a869b35f5874616785259e8221636eaf3ed6caf04"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-06-30.json",
+   "bytes": 854,
+   "sha256": "e350d595a1b3dec113ec1a455d2b6b96616e7ff4f51af783662a1f66bd1a11c5"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-07-31.json",
+   "bytes": 859,
+   "sha256": "919e283e00d13263c2d0a1bb9cca79d363f7d47008a264be5b807feb68a4559f"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-08-31.json",
+   "bytes": 854,
+   "sha256": "28645e2ccd3e801d6553d41725e1277201be405addadcb8fa698516c359ec9ec"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-09-30.json",
+   "bytes": 859,
+   "sha256": "57ffe9d88b854056ba9155ae3c65129a8c6b70cb3ac8800e752c9102cbffe115"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-10-31.json",
+   "bytes": 859,
+   "sha256": "04464e338423c7d9eea535627858d46faad3fc43ab7c9bf8a46d5711d1d41e04"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-11-30.json",
+   "bytes": 854,
+   "sha256": "deed2ae38e23ec7bb33446ae71577aa5719c093e6ce241c76066056a9f969e28"
+  },
+  {
+   "arquivo": "data/mkt/reconciliacao/2025-12-31.json",
+   "bytes": 854,
+   "sha256": "5a9b672140ee30f58103f453c87f2d23e99c74b9753e89cf1b822c6e2a26fe07"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2023-12-31.parquet",
+   "bytes": 1140281,
+   "sha256": "f32c9a44352f63475a059dbb69613c3792e9cd0150997f02698413ac8792a756"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-01-31.parquet",
+   "bytes": 1212127,
+   "sha256": "1c816e0e3a231d4a0d3c7855f0641be99120a50a11ea629e098a5f85487ee280"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-02-29.parquet",
+   "bytes": 1241032,
+   "sha256": "0e7c952383e583d1b795bbf95acd9971db16dab484ece5b946bd63072b0bad4d"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-03-31.parquet",
+   "bytes": 1261566,
+   "sha256": "0547d56863a1c3e963ec54b276bca4bad8d418aff0abe4dd9ccda9b47047ce1e"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-04-30.parquet",
+   "bytes": 1278102,
+   "sha256": "454a4fcd98cede13fe50fbe6ebf39de27e8410195333546e730c5c2e80f946cb"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-05-31.parquet",
+   "bytes": 1285525,
+   "sha256": "9c45990920b10fd411b6cb56503cbc8145ed48883c22e2cb45c8924bf2491f50"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-06-30.parquet",
+   "bytes": 1289938,
+   "sha256": "d26baeef4ae2816e618df845417c4ba2d54c6e4226d978830332f440408b8754"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-07-31.parquet",
+   "bytes": 1296622,
+   "sha256": "df81d1be4eaa57a01eb119981c4040bc8a1b5baf0a31280731bc22c0465e6ef3"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-08-31.parquet",
+   "bytes": 1290763,
+   "sha256": "5ebebe6530c0ddf84b69cf33dced6ef0467046f50eb14358c05e7f3defa77e87"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-09-30.parquet",
+   "bytes": 1292558,
+   "sha256": "d37671cd9ce974d4c0c253c79f0146c1242c1f2e4fcbdb3d8466a1768612946d"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-10-31.parquet",
+   "bytes": 1289205,
+   "sha256": "d7c71c10e250c36aa27e7d27c8f2d3f4adb18bf30cf72c51e447d543d027a74c"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-11-30.parquet",
+   "bytes": 1289836,
+   "sha256": "78e0709895c0f62cad9014c7a826f575aba976e9017fffe6f6f1086d16a7c8e5"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2024-12-31.parquet",
+   "bytes": 1338202,
+   "sha256": "c1081ea073a65108d220aac54c8d7a9466718f22fc3776c51ba530b78190518a"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-01-31.parquet",
+   "bytes": 1333527,
+   "sha256": "913b56c0a5be23d1e862fd4b5d0eab9b65a3882fc4d539af7ac6ba8ae4a51c50"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-02-28.parquet",
+   "bytes": 1334414,
+   "sha256": "02fb2c93ad44c2268f1e97457b40d9f4067fd05e17a1c8188b9958a66f4b94f2"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-03-31.parquet",
+   "bytes": 1339251,
+   "sha256": "485cfd78f4e8a88bbd7b2b0a2b19eebbbe869871c9b122e79ee878d461bfa88f"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-04-30.parquet",
+   "bytes": 1342429,
+   "sha256": "b5dcecad4db4f71c4f28bda53a03b2acb21279f4e47f2ab3d866e709d908a0fc"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-05-31.parquet",
+   "bytes": 1344319,
+   "sha256": "cf21f29ce68b55323b87fda4f948e32262c79b8e292b35b9f9d6d1e7006b49bd"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-06-30.parquet",
+   "bytes": 1348993,
+   "sha256": "f7eacd5e5c8d6fc9bc92ff38e9d6a78d3eb0f895e97e2ce70d6509da248fb85f"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-07-31.parquet",
+   "bytes": 1349734,
+   "sha256": "ab9361e5b0bbb71b92c8f1ffb33bd7d7a6ec2dc64362aa59c5026f899e0e3559"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-08-31.parquet",
+   "bytes": 1348865,
+   "sha256": "b4b91abd97ea91ed00b07906d345691f320762e4894bbc3ec86e50c1704a10aa"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-09-30.parquet",
+   "bytes": 1349159,
+   "sha256": "df71cac0b756b44fba7aafc09465b6b09e7e759ba2fb1abc5ccd71a883499e97"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-10-31.parquet",
+   "bytes": 1348269,
+   "sha256": "cfa2e75b287872c7aac3356e1b28d5bebaeab01f2ec9ab689ac614cc1eb8ace8"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-11-30.parquet",
+   "bytes": 1345739,
+   "sha256": "ac0764fce587de3f32f5f3a63aa958d8697393294222836b0432e80113885b9b"
+  },
+  {
+   "arquivo": "data/mkt/rfv/2025-12-31.parquet",
+   "bytes": 1352586,
+   "sha256": "26a94626944075a27698e296941a56f9567900e29b8e82317b49e9a919109b1d"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2023-12-31.json",
+   "bytes": 3437,
+   "sha256": "f6e178711146dc3bac55a8f8a7c0d7bc8d45984404e69099b44303a74322d210"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-01-31.json",
+   "bytes": 11844,
+   "sha256": "dac309542878b7b758255045496c351864ab87d65732381dc3308b4035c79d31"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-02-29.json",
+   "bytes": 11928,
+   "sha256": "f8f3af6aba0e83fe3871fb55d6e9d8aa555a6311b9610a5b9a1f9daa9746fb71"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-03-31.json",
+   "bytes": 11805,
+   "sha256": "2b4ebc96b8f1dbd71999a34ee5590a531a611d276b02720a7dda840594e8fc1b"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-04-30.json",
+   "bytes": 11981,
+   "sha256": "a9d4bdef8efd92b4c9671a6cbfdcfd338948a420c5245398cb81b49cb56f8b82"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-05-31.json",
+   "bytes": 11993,
+   "sha256": "4d6e925892f53db39b5db8a3a08afbe15dffbda8b8578031c74616e142c371b0"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-06-30.json",
+   "bytes": 11790,
+   "sha256": "4e3fa4fb36ba968f1356cdc51a52f3f5940d561ae165d120cb090376206cc267"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-07-31.json",
+   "bytes": 12460,
+   "sha256": "5d0aaa8b954feae59e8a57d4509e2c633ce79cd66da4d9000423d6b29e90dc25"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-08-31.json",
+   "bytes": 12278,
+   "sha256": "4e8d7dbe9a433e023b0f66c29a83add2156d0d810f76424049b6c89ab1f9e312"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-09-30.json",
+   "bytes": 12216,
+   "sha256": "d17a5cb8cee4d32b1ac5574c62ff77afcc39423001a57602d41dd4142907bea0"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-10-31.json",
+   "bytes": 12525,
+   "sha256": "273f747de9e7228ed45c58986feb85fb70a38d853ff48f69613885b96321d8ab"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-11-30.json",
+   "bytes": 12019,
+   "sha256": "d76470614ff41973846a2700b24c437d0bbad05659f288476acf0af936b3435d"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2024-12-31.json",
+   "bytes": 34871,
+   "sha256": "df7ec2a63c181b36d385ec2d9c582e20185c5ed02b9ff91f4780e0d4eb4cdd88"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-01-31.json",
+   "bytes": 35609,
+   "sha256": "f266d8525c8f8c6eb72798c8a4bed861a54b7b1bef6a958f0a852f43fb5ccdf9"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-02-28.json",
+   "bytes": 35607,
+   "sha256": "a90d614ac940d394ac0e55f6eeecf39692e81d12fecc8c060c2df5a8e74c03f2"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-03-31.json",
+   "bytes": 35573,
+   "sha256": "4567b4325df68dd8fcfbc022f644ad0b6ede922e395f6061e541fb895883474d"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-04-30.json",
+   "bytes": 36459,
+   "sha256": "718de5d6f0d3c58d4af2e2a315434eff2d8203e3196d1d1064255430345a16a5"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-05-31.json",
+   "bytes": 36700,
+   "sha256": "ff891046787c96f468c4f4bd4cc763fe10325c047118cf871c6910b2ab129dda"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-06-30.json",
+   "bytes": 36476,
+   "sha256": "396be0bfea5bc2cf9e78fd731ea5226a20d2d86a1d7e26081b0de58e81574699"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-07-31.json",
+   "bytes": 36337,
+   "sha256": "9321998931a1e8eea7ebb5d1fdd3b69398366b97b086e1bf8f9018f10f90f981"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-08-31.json",
+   "bytes": 37210,
+   "sha256": "396cfd545d028fcb029405454302d4e61d8c367ffac452a10a55595b771e516f"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-09-30.json",
+   "bytes": 36462,
+   "sha256": "74a41214c5fe72380a1cd2c4bb80724200862a3739554a764f12f4451f67159e"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-10-31.json",
+   "bytes": 37012,
+   "sha256": "a6dd3add1316e6d995ece2b9c147d07fe5b117456989b355ffb0a5b97536aadb"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-11-30.json",
+   "bytes": 36747,
+   "sha256": "5dfb8fd73bf767c316d5e559c84aa8dd1fed408a0e41462eae7f6314453d4abb"
+  },
+  {
+   "arquivo": "data/mkt/rfv_resumo/2025-12-31.json",
+   "bytes": 36179,
+   "sha256": "b0fe5a6ca590362c5c946b557f2528c0b996c86d6fa95ee91e42abe3eb917d0e"
+  },
+  {
+   "arquivo": "index.html",
+   "bytes": 967,
+   "sha256": "52cc8c627a599b88e25d8601c7a3b043abcd6d2cb93864f86b0a415757db170d"
+  }
+ ]
+}
