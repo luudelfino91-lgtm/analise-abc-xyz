@@ -1,10 +1,10 @@
 {
  "produto": "ABC-XYZ + RFV Analytics Framework — aplicação web estática",
- "versao": "1.0.0-rc.1",
- "gerado_em": "2026-11-23T14:24:30.071Z",
+ "versao": "1.0.0-rc.2",
+ "gerado_em": "2026-11-23T15:23:51.116Z",
  "origem": {
   "tipo": "hash-da-arvore-de-origem",
-  "id": "3b1638c15e5304ff",
+  "id": "2794cdd4a7b6bb55",
   "observacao": "o projeto não está sob controle de versão git; commit não disponível"
  },
  "base_relativa": "./",
@@ -31,7 +31,7 @@
  },
  "totais": {
   "arquivos": 511,
-  "bytes": 44063322
+  "bytes": 44107473
  },
  "arquivos": [
   {
@@ -40,14 +40,14 @@
    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
   },
   {
-   "arquivo": "assets/index-ByDYsjlz.js",
-   "bytes": 1027748,
-   "sha256": "56cf2d4403fcf72a0511c3702839a6d30f0696e401a74826e67463e1b574303d"
+   "arquivo": "assets/index-BGOW5-Tw.css",
+   "bytes": 13998,
+   "sha256": "922f79da01b99782adc3b2aa52a8402133f06205f7e2e54493ca64558ae2d213"
   },
   {
-   "arquivo": "assets/index-CtHN1A2i.css",
-   "bytes": 12717,
-   "sha256": "b62da0d5803aa0d20596e356f34a3720dfb9e55765862df2f1e37bdf7a06a05b"
+   "arquivo": "assets/index-CoBfPszR.js",
+   "bytes": 1070618,
+   "sha256": "5b6be34df7b7c8799167870aa95b32a6f339c7d4b71c175724e1d9576dcd9fee"
   },
   {
    "arquivo": "assets/poppins-devanagari-400-normal-CJDn6rn8.woff2",
@@ -2587,7 +2587,7 @@
   {
    "arquivo": "index.html",
    "bytes": 967,
-   "sha256": "52cc8c627a599b88e25d8601c7a3b043abcd6d2cb93864f86b0a415757db170d"
+   "sha256": "fe87c08dcdf0bbdf0c7c1399e2f7369e64ab3ae79c054eadbc5198b93fc930c0"
   }
  ]
 }
